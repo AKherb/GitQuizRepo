@@ -13,5 +13,7 @@ public class Main {
             return sum;
 
         };
+
+        System.out.println(addBetween.addAll(Integer.parseInt(args[0]), Integer.parseInt(args[1])));
     }
 }
